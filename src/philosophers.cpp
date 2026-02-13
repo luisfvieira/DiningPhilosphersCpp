@@ -39,7 +39,7 @@ void phil(string name, mutex& ma, mutex& mb, mutex& mo) {
 
 int main() {
   cout<<"dining Philosophers C++11 with Resource hierarchy\n";
-  // resources/forks used by each thread/philosopher
+  // resources/chopsticks or forks used by each thread/philosopher
   mutex m1, m2, m3, m4, m5, m6, m7, m8, m9;
 
   mutex mo;
